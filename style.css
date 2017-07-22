@@ -1,0 +1,46 @@
+    head, body {
+      font-family: Arial;
+      font-size: 12pt;
+    }
+    .form {
+      width: 90%;
+    }
+    .key {
+      width: 100%;
+    }
+    .text {
+      margin-top: 1rem;
+      width: 100%;
+      height: 10rem;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap-reverse;
+    }
+    .encrypt-button {
+      color: white;
+      background: green;
+    }
+    .decrypt-button {
+      color: white;
+      background: brown;
+    }
+    .encrypt-button, .decrypt-button {
+      ouline: none;
+      border: 0;
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-top: 1rem;
+    }
+    .encrypt-button:hover, .decrypt-button:hover {
+      color: black;
+      background: yellow;
+      outline: solid 1px #ddd;
+    }
+    .result-title {
+      margin-top: 3rem;
+    }
+    .result-text {
+      margin-top: 0;
+    }

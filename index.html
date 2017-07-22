@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+<form class="form">
+  <h2 class="title">Encrypt/Decrypt</h2>
+  <div><input id="key" class="key" placeholder="enter key" value=""/></div>
+  <textarea id="text" class="text" placeholder="enter text"></textarea>
+
+  <div class="buttons">
+    <span class="decrypt-button" onclick="decrypt()">DECRYPT</span>
+    <span class="encrypt-button" onclick="encrypt();">ENCRYPT</span>
+  </div>
+
+  <h3 class="result-title">RESULT:</h3>
+  <textarea id="result" class="text result-text"></textarea>
+</form>
+
+</body>
+</html>
