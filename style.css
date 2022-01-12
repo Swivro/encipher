@@ -1,9 +1,5 @@
     head, body {
-      font-family: Arial;
       font-size: 12pt;
-    }
-    .form {
-      width: 90%;
     }
     .key {
       width: 100%;
@@ -17,8 +13,8 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap-reverse;
-    }
-    .encrypt-button {
+    } 
+   /** .encrypt-button {
       color: white;
       background: green;
     }
@@ -37,7 +33,7 @@
       color: black;
       background: yellow;
       outline: solid 1px #ddd;
-    }
+    } **/
     .result-title {
       margin-top: 3rem;
     }
