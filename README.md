@@ -6,3 +6,4 @@ As required by the software license, stated below are the changes we have made t
 - Update Styling
 - Update Wording
 - Integrate into swivro.net/keyvault.html (license & software info can been on the FAQ)
+- Censor/hide passphrase & seed phrase when typed into input
