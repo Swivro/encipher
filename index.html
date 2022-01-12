@@ -13,12 +13,12 @@
 <div class="container">
 <form class="form">
   <h2 class="title">Encrypt/Decrypt</h2>
-  <div><input id="key" class="key form-control" placeholder="enter key" value=""/></div>
-  <textarea id="text" class="text form-control" placeholder="enter text"></textarea>
+  <div><input id="key" class="key form-control" placeholder="Enter Custom Passphrase" value=""/></div>
+  <textarea id="text" class="text form-control" placeholder="Enter Seed Phrase (put your encrypted seed phrase if you want to decrypt it, or your plaintext seed phrase if you want to encrypt it)"></textarea>
 
   <div class="buttons">
-    <span class="decrypt-button" onclick="decrypt()">DECRYPT</span>
-    <span class="encrypt-button" onclick="encrypt();">ENCRYPT</span>
+    <span class="decrypt-button btn btn-danger" onclick="decrypt()">Decrypt Seed</span>
+    <span class="encrypt-button btn btn-success" onclick="encrypt();">Encrypt Seed</span>
   </div>
 
   <h3 class="result-title">RESULT:</h3>
