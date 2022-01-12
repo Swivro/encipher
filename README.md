@@ -5,4 +5,4 @@ Encrypt your (crypto wallet) seed phrase using your own passphrase, save the enc
 As required by the software license, stated below are the changes we have made to this open source software:
 - Update Styling
 - Update Wording
-- Integrate into swivro.net
+- Integrate into swivro.net/keyvault.html (license & software info can been on the FAQ)
