@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Seedcrypt</title>
-    <style>
+      <style>
     .maincontent {
       padding-top: 30px;
     }
@@ -45,7 +45,7 @@
     .result-text {
       margin-top: 0;
     }
-    </style>
+  </style>
   <script src="https://cdn.swivro.net/crypto-js/3.1.2/rollups/aes.js"></script>
   <script src="https://cdn.swivro.net/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
   <script>
@@ -118,23 +118,22 @@
 <!--  <div class="alert alert-danger" role="alert">
     <strong>NEVER</strong> share your passphrase with anyone, no matter how much you trust them. If they are compelled by law enforcement to give up your passphrase, your crypto can be stolen.
   </div> -->
-  <div><input id="key" class="key form-control" placeholder="Enter Custom Passphrase" type="password" value=""></div>
-  <input id="text" class="text form-control" placeholder="Enter Seed Phrase (either encrypted or decrypted)" type="password">
+  <div><input id="key" class="key form-control" placeholder="Enter Custom Passphrase" type="password" value></div>
+  <textarea id="text" class="text form-control" placeholder="Enter Text (either encrypted or decrypted)" type="password"></textarea>
 
   <div class="buttons row">
       <div class="col">
-          <span class="decrypt-button btn btn-danger" onclick="decrypt()">Decrypt Phrase</span>
+          <span class="decrypt-button btn btn-danger" onclick="decrypt()">Decrypt Text</span>
       </div>
       
       <div class="col">
-          <span class="encrypt-button btn btn-success" onclick="encrypt();">Encrypt Phrase</span>
+          <span class="encrypt-button btn btn-success" onclick="encrypt();">Encrypt Text</span>
       </div>
   </div>
 
   <h3 class="result-title">Output:</h3>
-  <textarea id="result" class="text result-text form-control" readonly=""></textarea>
+  <textarea id="result" class="text result-text form-control" readonly></textarea>
 </form>
-
 </div>
 </body>
 </html>
