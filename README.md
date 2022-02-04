@@ -1,4 +1,4 @@
-# unicrypt
+# encipher
 
 Simply, securely, and privately encrypt text or the contents of a file. You can use Unicrypt for many things, such as; to encrypt & decrypt the contents of an email, to encrypt the seed phrase to your cryptocurrency wallet, to encrypt a self-note, or SMS messages.
 
